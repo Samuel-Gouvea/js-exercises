@@ -11,3 +11,9 @@ for (let i = points.length -1; i > 0; i--) {
   points[i] = points[j];
   points[j] = k;
 }
+
+// reversing an array 
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();
+fruits.reverse();
